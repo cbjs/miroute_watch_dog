@@ -1,0 +1,49 @@
+#请输入插件ID。
+plugin_id= "2882303761517460266";
+
+#请输入插件名称。
+name= "watchdog";
+
+#请输入插件介绍。
+introduction= "定时查看网络上的某些信息，满足条件时提醒或者执行其它预定操作。";
+
+#请输入插件简介。
+summary= "小米路由器插件watchdog";
+
+#已安装插件图标URL。
+installed_icon= "http://file.market.xiaomi.com/download/AppStore/0e37a58700640813d34414ce6d5c8dc92e0416c5f";
+
+#插件详情图标URL。
+detail_image= "http://file.market.xiaomi.com/download/AppStore/08bd543d9d4aacea4554dca85e739d08dc9418817";
+
+#可安装插件图标URL。
+market_icon="http://file.market.xiaomi.com/download/AppStore/0c89cf59a272b423b1ae9d5196e406c598da20e75";
+
+#开发者名称。
+developer= "dengguo";
+
+#请输入插件版本号(格式：xx.xx.xx)。
+version= "1.0.0";
+
+#请输入插件控制页面url。
+control_url= "http://watchdog.timian.ren";
+
+#请输入打包目录(如果插件没有可执行文件，可不用填写)。
+zip_path= "./build";
+
+#请输入开发者证书文件路径。
+pem_path= "./key/171222027.pem";
+
+#请输入私钥文件路径。
+key_path= "./key/client.key";
+
+#请输入sdk level。
+sdk_level= "5";
+
+#是否支持R1D
+supported_rom= "miwifi_rom";
+
+#是否需要访问公共存储目录
+access_userdata= "true";
+support_download= "true";
+
