@@ -1,12 +1,12 @@
 BUILDDIR := ./build/
-BINARY = $(BUILDDIR)sample
+BINARY = $(BUILDDIR)watch_dog
 
 all : dir sample package
 
-ROOTDIR = $(CURDIR)/../
+ROOTDIR = $(CURDIR)/../sdk/
 toolchain := $(ROOTDIR)toolchain/
-CXX = $(toolchain)/bin/arm-xiaomi-linux-uclibcgnueabi-g++
-CC =$(toolchain)/bin/arm-xiaomi-linux-uclibcgnueabi-gcc
+CXX = $(toolchain)bin/arm-xiaomi-linux-uclibcgnueabi-g++
+CC =$(toolchain)bin/arm-xiaomi-linux-uclibcgnueabi-gcc
 LIB_DIR = -L$(ROOTDIR)/lib/
 CXXFLAGS += -I$(ROOTDIR)/include/
 LDFLAGS = -Wall -O2 -lxmrouter -lthrift -lssl -lcrypto -lconfig++ -ljson-c \
@@ -26,4 +26,4 @@ clean:
 
 package: 
 	cp start_script build/
-	../plugin_packager_x64
+	../sdk/plugin_packager_x64

@@ -1,1 +1,1 @@
-RUN ./sample
+RUN ./watch_dog
