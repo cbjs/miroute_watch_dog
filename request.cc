@@ -1,6 +1,6 @@
-#include "Request.h"
+#include "request.h"
 
-#include <curl/curl.h>
+#include "curl/curl.h"
 
 using namespace std;
 

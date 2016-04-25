@@ -1,4 +1,4 @@
-#include "Notifier.h"
+#include "notifier.h"
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
